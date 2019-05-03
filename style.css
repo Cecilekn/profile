@@ -1,0 +1,103 @@
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Open+Sans:400,700|Poppins:400,500,600,700,800,900|Roboto:400,700,900');
+
+/* General Style: Colors and Fonts */
+
+body {
+  background-color: #F2F1F6;
+  color: rgb(30,30,30);
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #703D57;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #957186;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #CF9A97;
+}
+
+a:hover {
+  color: #FDD4D1;
+}
+
+/* Custom Style using class */
+
+.card-white {
+  background: white;
+  padding: 10px 30px 30px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 30px #D8CBD3;
+  margin: 20px 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-orange {
+  background-color: #CF9A97;
+  color: white;
+  padding: 7px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.btn-orange:hover {
+  background-color: #FEF8F8;
+  color: #CF9A97;
+  border: 1px solid #CF9A97;
+}
+
+/* Custom Style using id and Last Adjustments */
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 32px;
+}
+
+@media (max-width: 1500px) {
+  /* For a screen < 1500px, this CSS will be read */
+  .container {
+    margin: 0px auto;
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    margin: 0px auto;
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    margin: 0px auto;
+    width: 300px;
+  }
+}
+
